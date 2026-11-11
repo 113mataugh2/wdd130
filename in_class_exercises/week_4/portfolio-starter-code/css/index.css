@@ -1,0 +1,64 @@
+/* Add your CSS here to style the photography portfolio*/
+
+/* Go here to get fonts: https://fonts.google.com/*/
+/* Select a font, and copy it's @import statement. Paste at the top of this file.*/
+@import url('https://fonts.googleapis.com/css2?family=Chango&family=Edu+QLD+Hand:wght@400..700&display=swap');
+/* Flexbox cheat sheet: https://flexbox.malven.co/*/
+
+
+body {
+    margin:0;
+}
+
+h1 {
+    font-family: "Chango", sans-serif;
+    text-align: center;
+    font-size: 3em;
+}
+
+h2 {
+    font-family: "Edu QLD Hand";
+    text-align: center;
+}
+
+nav {
+    background-color: cadetblue;
+    height: 3.5em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    border: 5px solid rgb(74, 124, 125);
+    /*border-top: 0;
+    border-left: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);*/
+}
+
+nav a {
+    color:aliceblue;
+    font-size: 2em;
+    text-decoration: None;
+    text-align: center;
+    padding: 8px;
+}
+
+nav a:hover {
+    color: black;
+    font-size: 2.5em;
+    padding: 4px;
+}
+
+img {
+    max-width: 200px;
+}
+
+#img-container {
+    display: flex;
+    flex-direction: column;
+    max-height: 1400px;
+    flex-wrap: wrap;
+    margin-left: 15em;
+    margin-right: 15em;
+    gap: 10px;
+}

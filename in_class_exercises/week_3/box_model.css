@@ -1,0 +1,48 @@
+/*CSS crap*/
+
+body {
+    background-color: aliceblue;
+}
+
+h1 {
+    color: blue;
+    text-shadow: 
+    -2px -2px 0 rgb(163, 219, 172);
+    text-align: center;
+    margin: 100px;
+    border-color: rgb(0, 204, 255);
+}
+
+/*specific id selector*/
+#your_mum {
+    color: purple;
+}
+
+p {
+    color: black;
+    border-width: 50px;
+    border-style: solid;
+    border-color: blueviolet;
+
+    padding: 0px;
+   
+}
+
+/*class selector, specific but not as specific as ID*/
+.subtitle_text {
+    color: goldenrod;
+}
+
+#your_dad {
+    border-color: green;
+}
+
+div p span {
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+div p {
+    border-width: 20px;
+    border-color: turquoise;
+}

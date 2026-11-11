@@ -1,0 +1,210 @@
+#denmark {
+    display: grid;
+    background-color: white;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    height: 200px;
+    width: 300px;
+    gap: 27px;
+}
+
+#dred1 {
+    background: red;
+    grid-column: 1 / 2;
+}
+
+#dred2 {
+    background: red;
+    grid-column: 2 / 2;
+}
+
+#dred3 {
+    background: red;
+    grid-column: 1 / 2;
+    grid-row: 2/2;
+}
+
+#dred4 {
+    background: red;
+    grid-column: 2 / 2;
+}
+
+
+
+#finland {
+    display: grid;
+    background-color: blue;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    height: 200px;
+    width: 300px;
+    gap: 40px;
+}
+
+#fwhite1 {
+    background: rgb(255, 255, 255);
+    grid-column: 1 / 2;
+}
+
+#fwhite2 {
+    background: white;
+    grid-column: 2 / 2;
+}
+
+#fwhite3 {
+    background: white;
+    grid-column: 1 / 2;
+    grid-row: 2/2;
+}
+
+#fwhite4 {
+    background: white;
+    grid-column: 2 / 2;
+}
+
+
+#benin {
+    display: grid;
+    grid-template-columns: 1fr 1.45fr;
+    grid-template-rows: 1fr 1fr;
+    height: 200px;
+    width: 300px;
+}
+
+#bgreen {
+    background: green;
+    grid-column: 1 / 2;
+    grid-row: 1/3;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+#byellow {
+    background: yellow;
+    grid-column: 2 / 2;
+}
+
+#bred {
+    background: red;
+    grid-column: 2 / 2;
+}
+
+
+#italy {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 200px;
+    width: 300px;
+}
+
+#igreen {
+    background: green;
+    grid-column: 1 / 1;
+}
+
+#iwhite {
+    background: white;
+    grid-column: 2 / 3;
+}
+
+#ired {
+    background: red;
+    grid-column: 3 / 3;
+}
+
+
+
+#car {
+    display: grid;
+    grid-template-columns: 1fr 55px 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    height: 200px;
+    width: 300px;
+}
+
+#cblue {
+    background: blue;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+.cstar {
+    width: 50px;
+    aspect-ratio: 1;
+    background: gold;
+    clip-path: polygon(50% 0, 79% 90%, 2% 35%, 98% 35%, 21% 90%);
+    margin-top: 3px;
+}
+
+#cwhite {
+    background: white;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+#cgreen {
+    background: green;
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+
+#cyellow {
+    background: yellow;
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+}
+
+
+#cred {
+    background: red;
+    grid-column: 2 / 3;
+    grid-row: 1 / 5;
+}
+
+
+#c2blue {
+    background: blue;
+    grid-column: 3 / 3;
+    grid-row: 1 / 2;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+#c2white {
+    background: white;
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+}
+
+#c2green {
+    background: green;
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+}
+
+#c2yellow {
+    background: yellow;
+    grid-column: 3 / 4;
+    grid-row: 4 / 5;
+}
+
+
+#vietnam {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 300px;
+    background-color: red;
+}
+
+.vstar {
+    width: 120px;
+    aspect-ratio: 1;
+    background: gold;
+    clip-path: polygon(50% 0, 79% 90%, 2% 35%, 98% 35%, 21% 90%);
+}
